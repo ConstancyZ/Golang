@@ -6,7 +6,7 @@ import (
 )
 
 // routers/routers.go中根据需要定义Include函数用来注册子app中定义的路由，
-// Init函数用来进行路由的初始
+// Init函数用来进行路由的初始化
 type Option func(*gin.Engine)
 
 var options = []Option{}
