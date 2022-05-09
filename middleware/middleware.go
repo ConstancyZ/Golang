@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-// 定义全局中间件
+// 定义全局中间 件
 func Middleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		t := time.Now()

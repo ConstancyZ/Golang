@@ -6,6 +6,10 @@ import (
 )
 
 func insertShop(c *gin.Context) {
+	host := c.Request.Host
+	scheme := c.Request.URL.Scheme
+	fmt.Println("host:", host)
+	fmt.Println("scheme:", scheme)
 	fmt.Println("insert Shop")
 }
 
